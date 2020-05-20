@@ -11,3 +11,13 @@ steps:
 - name: node
   entrypoint: yarn
   args: ['test']
+
+- name: node
+  entrypoint: yarn
+  args: ['build']
+
+
+artifacts:
+  objects:
+    location: 'gs://qwiklabs-gcp-03-93b3084e55cb/'
+    paths: ['dist/*']
