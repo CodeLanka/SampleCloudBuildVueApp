@@ -1,6 +1,6 @@
 # Sample CloudBuild Vue App
 
-> A Vue.js project
+> A Sample CloudBuild Vue.js project
 
 ## Build Setup
 
