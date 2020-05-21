@@ -16,10 +16,5 @@ steps:
   entrypoint: yarn
   args: ['build']
 
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy']
-
-artifacts:
-  objects:
-    location: 'gs://qwiklabs-gcp-04-8d20eb4862ea-cb/'
-    paths: ['dist/**']
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args: ['gsutil', 'rsync', '-r', './dist', 'gs://qwiklabs-gcp-04-f8329ce1e089-hosting']
