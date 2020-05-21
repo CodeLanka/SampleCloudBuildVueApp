@@ -19,5 +19,5 @@ steps:
 
 artifacts:
   objects:
-    location: 'gs://qwiklabs-gcp-03-93b3084e55cb/'
+    location: 'gs://qwiklabs-gcp-04-8d20eb4862ea-cb/'
     paths: ['dist/*']
