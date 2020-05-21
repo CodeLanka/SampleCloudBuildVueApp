@@ -1,4 +1,4 @@
-# sample-cloud-build-vue-app
+# Sample CloudBuild Vue App
 
 > A Vue.js project
 
