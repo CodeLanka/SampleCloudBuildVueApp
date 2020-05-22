@@ -17,4 +17,4 @@ steps:
   args: ['build']
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['gsutil', 'rsync', '-r', './dist', 'gs://qwiklabs-gcp-04-f8329ce1e089-hosting']
+  args: ['gsutil', 'rsync', '-r', './dist', 'gs://my-awesome-vue-js-application-gcdc-lk']
