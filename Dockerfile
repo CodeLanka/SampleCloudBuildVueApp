@@ -1,3 +1,7 @@
-FROM nginx
+FROM node
 
-COPY /dist /usr/share/nginx/html
+COPY ./ ./
+
+RUN yarn
+
+ENTRYPOINT yarn start
